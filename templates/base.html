@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+            Начальная страница
+        {% endblock %}
+    </title>
+</head>
+<body>
+<!--links-->
+<ul>
+    <li><a href="/">Основная</a></li>
+    <li><a href="/clothes/">Одежда</a></li>
+    <li><a href="/boots/">Ботинки</a></li>
+    <li><a href="/jacket/">Куртка</a></li>
+</ul>
+<!--body-->
+{% block body %}
+<h1>Тут пока что ничего нет</h1>
+{% endblock %}
+</body>
+</html>
